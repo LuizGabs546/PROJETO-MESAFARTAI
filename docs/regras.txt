@@ -1,1 +1,75 @@
+PROJETO MESAFARTAI – REGRAS E REQUISITOS DA ETAPA 1
 
+ORGANIZAÇÃO DO GRUPO E REPOSITÓRIO
+
+O grupo deverá ser formado por 3 a 5 alunos, podendo ser os mesmos integrantes do projeto Tech.
+
+Deverá ser criado um repositório público no GitHub com o nome exato PROJETO-MESAFARTAI.
+
+Todos os integrantes do grupo e o professor deverão ser adicionados ao repositório como colaboradores.
+
+CRIAÇÃO DO README.md E DA PASTA DOCS
+
+Na raiz do repositório, deverá ser criado o arquivo README.md contendo:
+
+Título oficial do projeto: MESAFARTAI – Logística e Inteligência Assistiva no Combate à Fome.
+Descrição resumida da solução proposta e seu alinhamento com o Objetivo de Desenvolvimento Sustentável 2 (ODS 2) da ONU, relacionado à Fome Zero e à Agricultura Sustentável.
+Nome completo e RA de cada integrante do grupo.
+
+Também deverá ser criada a pasta docs, contendo os seguintes arquivos:
+
+regras.txt: documento com a descrição dos requisitos solicitados na primeira etapa do projeto.
+escopo_projeto.md: documento descrevendo o problema de negócio abordado, o público-alvo (doadores e ONGs), as intenções que serão tratadas pelo chat e os dados que serão coletados durante a interação. Esse arquivo também deverá registrar o prompt exato utilizado para gerar o logotipo por inteligência artificial.
+IDENTIDADE VISUAL E LOGOTIPO
+
+O grupo deverá elaborar um prompt criativo e utilizar uma ferramenta de geração de imagens por inteligência artificial para criar o logotipo do sistema MESAFARTAI.
+
+O logotipo deverá combinar conceitos relacionados a alimentos, acolhimento, tecnologia e inteligência artificial assistiva.
+
+A imagem gerada deverá ser salva no caminho assets/logo_mesafartai.png.
+
+O prompt exato utilizado na geração da imagem deverá ser registrado no arquivo docs/escopo_projeto.md.
+
+CRIAÇÃO DO BANCO DE DADOS
+
+Deverá ser criada a pasta src e, dentro dela, o arquivo database.py, utilizando a linguagem Python e a biblioteca SQLite3 para inicializar o banco de dados relacional do projeto.
+
+O banco de dados deverá ter o nome mesafartai.db e conter três tabelas fundamentais:
+
+usuarios: armazenará os dados dos doadores e das ONGs, incluindo nome, tipo de usuário, CEP, latitude, longitude e telefone.
+doacoes: armazenará as informações das doações de alimentos, como descrição, quantidade em quilogramas, data de validade e status da doação.
+matches: armazenará os relacionamentos entre as doações e as ONGs, incluindo a distância em quilômetros e a data do match logístico.
+
+As tabelas deverão possuir suas respectivas chaves primárias e estrangeiras, conforme a estrutura solicitada.
+
+O script também deverá inserir dados iniciais de teste caso a tabela de usuários esteja vazia, incluindo duas ONGs (ONG Prato Quente e Abrigo Esperanca) e dois doadores (Supermercado Silva e Restaurante Sabor).
+
+Após a execução do script, o banco de dados deverá estar inicializado corretamente, sem erros, com as tabelas criadas e os dados iniciais inseridos.
+
+CHECKLIST DE ENTREGA
+
+Antes de finalizar a atividade, o grupo deverá verificar se todos os requisitos foram atendidos:
+
+Repositório PROJETO-MESAFARTAI criado e configurado como público no GitHub.
+Todos os integrantes e o professor adicionados como colaboradores.
+Arquivo README.md preenchido com o título oficial, a descrição do projeto, o alinhamento com a ODS 2 e os nomes completos e RAs dos integrantes.
+Pasta docs criada contendo os arquivos regras.txt e escopo_projeto.md.
+Prompt utilizado na geração do logotipo registrado no arquivo docs/escopo_projeto.md.
+Logotipo salvo em assets/logo_mesafartai.png.
+Pasta src criada contendo o arquivo database.py.
+Script database.py executado sem erros, gerando o banco de dados mesafartai.db com as tabelas e os dados de teste.
+ENVIO DA ATIVIDADE AO PROFESSOR
+
+Ao final da aula, deverá ser enviado um e-mail ao professor contendo a lista dos integrantes do grupo, com nome, RGM e curso, além do link direto para o repositório público no GitHub.
+
+O e-mail deverá ser enviado até o final do horário da aula e seguir o formato abaixo:
+
+Assunto: [MESAFARTAI] - Nome do Grupo - Turma Quinta 
+
+Corpo do e-mail:
+
+Nome completo, RGM e curso de cada integrante.
+Link direto do repositório PROJETO-MESAFARTAI no GitHub.
+OBJETIVO GERAL DA ETAPA
+
+A primeira etapa tem como objetivo organizar o grupo, estruturar o repositório, documentar os requisitos e o escopo do projeto, definir a identidade visual e implementar a estrutura inicial do banco de dados, preparando a base para o desenvolvimento do sistema MESAFARTAI.
