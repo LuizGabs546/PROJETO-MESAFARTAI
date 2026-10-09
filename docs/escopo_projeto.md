@@ -37,5 +37,5 @@ Esses dados serão utilizados para apoiar o cadastro, a consulta e a organizaç�
 
 ## 5. Prompt utilizado para criação do logotipo
 
-[Inserir aqui o prompt exato utilizado para gerar o logotipo do MESAFARTAI.]
+Crie uma logo mrca para um projeto considerando unir conceitos de alimento/ acolhimentos e tecnologia assistiva.
 
