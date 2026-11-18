@@ -1,0 +1,9 @@
+SMTP_HOST=smtp-relay.brevo.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=c3e6bc001@smtp-brevo.com
+SMTP_PASS=xsmtpsib-e4413bfc73bf58c17850b928339a78556900903af32871b6b15f63e45e34fc5a-9PuCohSkahrMwM7j
+SMTP_MAIL=luizgabriel3801@gmail.com
+SMTP_TO=luizgabriel3801@gmail.com
+
+API_KEY=ACBACKEND2026-LUIZ-123456
