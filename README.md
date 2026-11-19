@@ -9,8 +9,3 @@
 
     O projeto está alinhado ao ODS 2 da ONU — Fome Zero e Agricultura Sustentável, pois facilita o acesso de instituições sociais a alimentos disponíveis para doação, contribuindo para reduzir o desperdício, fortalecer a segurança alimentar e promover uma distribuição mais eficiente dos recursos alimentícios para pessoas em situação de vulnerabilidade.
 
-#COLABORADORES:
-    DENILSON SEVERINO DA SILVA              -  RA:126056
-    IAGO KAWAN SOARES DA SILVA              -  RA:89794
-    DANIEL FELIPE HIDEKI NAKADA             - RA:141407
-    PRISCILA ROBERTA FERNANDES DA SILVA     - RA:93895
